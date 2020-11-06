@@ -1,0 +1,25 @@
+.book {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+
+a div {
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/1020233368.webp);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.textblock {
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    font-style: italic;
+}
