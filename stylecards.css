@@ -1,25 +1,36 @@
-.book {
+section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 50px;
 }
 
 img {
-    width: 250px;
-    height: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 200px;
 }
 
-
 a div {
-    width: 300px;
-    height: 300px;
+    width: 190px;
+    height: 270px;
     background-image: url(./images/1020233368.webp);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.textblock {
-    font-family: 'Syne Mono', monospace;
-    font-size: 20px;
-    font-style: italic;
+h1 {
+    margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+a:hover {
+    border-bottom: 3px solid tomato;
+}
+
+a {
+    margin-right: 40px;
+    padding-left: 0px;
 }
