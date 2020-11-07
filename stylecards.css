@@ -1,7 +1,10 @@
+:root {
+    --margin-left: 50px;
+}
 section {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: var(--margin-left);
 }
 
 img {
@@ -21,7 +24,7 @@ a div {
 }
 
 h1 {
-    margin: 40px;
+    margin: var(--margin-left);
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
 }
